@@ -1,3 +1,5 @@
+/* Global */
+
 * {
     margin: 0;
     padding: 0;
@@ -17,10 +19,17 @@ a {
     justify-content: space-between;
 }
 
+/* Header */
+
 header {
     padding: 20px;
     display: flex;
     justify-content: flex-end;
+}
+
+header a {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 13px;
 }
 
 header ul {
@@ -29,10 +38,11 @@ header ul {
     justify-content: space-between;
 }
 
-header ul li {
+header li {
     list-style: none;
 }
 
+/* Showcase */
 .showcase {
     margin-top: -20vh;
     display: flex;
@@ -40,9 +50,20 @@ header ul li {
     align-items: center;
 }
 
+/* Footer */
+
 footer {
     display: flex;
     flex-direction: column;
+    background-color: #f2f2f2;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 14px;
+    padding: 0 47px 0 47px;
+    line-height: 40px;
+}
+
+footer a {
+    color: rgba(0, 0, 0, 0.54);
 }
 
 footer .bottom {
@@ -50,7 +71,7 @@ footer .bottom {
     justify-content: space-between;
 }
 
-footer .bottom ul {
+footer ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
